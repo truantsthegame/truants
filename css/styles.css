@@ -549,7 +549,7 @@ header {
   height: auto;
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 25%;
   opacity: 0;
   -moz-transition: opacity 2s;
   -webkit-transition: opacity 2s;
@@ -565,7 +565,7 @@ header {
   @media (max-width: 768px) {
     .big-logo {
       width: 80%;
-      top: 30%;
+      top: 22%;
       -webkit-transform: translate(-50%, -65%);
       -moz-transform: translate(-50%, -65%);
       -ms-transform: translate(-50%, -65%);
@@ -574,7 +574,7 @@ header {
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
     .big-logo {
       width: 75%;
-      top: 32%; } }
+      top: 23%; } }
   @media (max-width: 480px) {
     .big-logo {
       width: 100%; } }
@@ -583,7 +583,7 @@ header {
   height: auto;
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 45%;
   opacity: 0;
   -moz-transition: opacity 2s;
   -webkit-transition: opacity 2s;
@@ -599,7 +599,7 @@ header {
   @media (max-width: 768px) {
     .small-logo {
       width: 16%;
-      top: 50%;
+      top: 40%;
       -webkit-transform: translate(-50%, -65%);
       -moz-transform: translate(-50%, -65%);
       -ms-transform: translate(-50%, -65%);
@@ -608,10 +608,74 @@ header {
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
     .small-logo {
       width: 15%;
-      top: 55%; } }
+      top: 42%; } }
   @media (max-width: 480px) {
     .small-logo {
       width: 20%; } }
+
+.announcement {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #c4ae78 !important;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+
+  font-size: 200% }
+  .announcement a {
+    transition: all 0.33s;
+    color: #a5b7c6!important;
+    text-decoration: none; }
+    @media (min-width: 768px) {
+      .announcement a {
+        font-size: 150%; } }
+    @media (min-width: 992px) {
+      .announcement a {
+        font-size: 100%; } }
+    .announcement a:hover, .announcement a:active {
+      text-shadow: 0 0 15px #d4dee6, 0px -5px 20px #d5e1eb, 0 5px 20px #cad5de;
+      color: #ffffff !important; }
+
+      .announcement p{
+        font-size: 50%;
+        transition: all 0.33s;
+    color: #a5b7c6!important;
+    text-decoration: none;
+
+      }
+      
+
+      .announcement{
+        height: auto;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  -moz-transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
+  -webkit-transform: translate(-50%, -90%);
+  -moz-transform: translate(-50%, -90%);
+  -ms-transform: translate(-50%, -90%);
+  -o-transform: translate(-50%, -90%);
+  transform: translate(-50%, -90%);
+  z-index: 0; }
+  @media (max-width: 768px) {
+    .announcement {
+      width: 80%;
+      top: 65%;
+      -webkit-transform: translate(-50%, -65%);
+      -moz-transform: translate(-50%, -65%);
+      -ms-transform: translate(-50%, -65%);
+      -o-transform: translate(-50%, -65%);
+      transform: translate(-50%, -65%); } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+    .announcement {;
+      top: 70%; } }
+  @media (max-width: 480px) {
+    .announcement { } }
+      }
+
+
+      
 
 .social-nav-header {
   left: 50%;
@@ -1148,24 +1212,27 @@ ul#model-feats {
       width: 50%;
       display: inline-block;
       box-shadow: 0 0 10px #000000; }
-  .testimonials p {
+  .testimonials a {
     color: #d4dee6;
-    font-size: 16px;
+    font-size: 12px;
     height: 32px;
     text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a; 
     line-height: 32px;
     text-transform: uppercase;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Orbitron, Arial, sans-serif;
     text-align: center; }
     @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
-      .testimonials p {
-        font-size: 18px; } }
+      .testimonials a {
+        font-size: 18px;
+        font-family: Orbitron, Arial, sans-serif; } }
     @media (min-width: 768px) {
-      .testimonials p {
-        font-size: 18px; } }
+      .testimonials a {
+        font-size: 16px;
+        font-family: Orbitron, Arial, sans-serif; } }
     @media (max-width: 320px) {
-      .testimonials p {
-        font-size: 16px; } }
+      .testimonials a {
+        font-size: 12px;
+        font-family: Orbitron, Arial, sans-serif; } }
   .testimonials blockquote {
     border: none;
     color: #ffffff;
@@ -1217,6 +1284,8 @@ ul#model-feats {
           -ms-transform: translate(50%, 50%);
           -o-transform: translate(50%, 50%);
           transform: translate(50%, 50%); } }
+
+
 
 /*------------------------------------------------------------------
 
