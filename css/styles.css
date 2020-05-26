@@ -284,7 +284,7 @@ option {
   height: auto; }
 
 a.navbar-logo {
-  background-image: url(../img/trueantgames.png);
+  background-image: url(../img/truantslogo.png);
   width: 50px;
   height: 40px;
   background-size: 50px auto;
@@ -292,7 +292,7 @@ a.navbar-logo {
   margin-top: 2px; }
   a.navbar-logo:hover {
     text-shadow: 0 0 15px #d4dee6, 0px -5px 20px #d5e1eb, 0 5px 20px #cad5de;
-    background-image: url(../img/trueantgames-highlight.png);}
+    background-image: url(../img/truantslogo.png);}
 
 .custom-toggle-btn {
   background-color: rgba(255, 255, 255, 0) !important;
@@ -747,6 +747,8 @@ header {
 h3 {
   transition: all 0.5s; }
 
+
+
 /*------------------------------------------------------------------
 
 3. Layout / #layout
@@ -777,17 +779,20 @@ h3 {
       width: 100%; }
   .gallery .carousel-caption {
     padding: 10px;
-    font-size: 80%;
-    margin-bottom: 30px; }
+    font-size: 150%;
+    margin-bottom: 30px;
+    color: #00feff; }
     @media (max-width: 480px) {
       .gallery .carousel-caption {
-        display: none; } }
+        display: none;
+        color: #00feff; } }
     @media (min-width: 768px) {
       .gallery .carousel-caption {
         left: 10%;
         right: 10%;
         padding: 20px;
-        font-size: 100%;
+        font-size: 150%;
+        color: #00feff;
         margin-bottom: 55px;
         text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a; } }
 
