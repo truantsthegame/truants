@@ -60,7 +60,7 @@ Tertiary Font: 'Palatino Light', Times, Times New Roman, Georgia, serif;
 html, body {
   color: #383838;
   font-size: 18px;
-  font-family: "Cinzel Decorative", "Palatino Light", Times, Times New Roman, Georgia, serif;
+  font-family: "Orbitron", "Palatino Light", Times, Times New Roman, Georgia, serif;
   font-weight: 300;
   text-rendering: optimizeLegibility; }
   @media (min-width: 768px) {
@@ -806,7 +806,7 @@ h3 {
     opacity: 1; }
 
 .carousel-indicators li {
-  border: 5px double #ecd19a; }
+  border: 5px double #00feff; }
 
 .carousel-indicators .active {
   background-color: #000000; }
