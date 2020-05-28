@@ -1219,7 +1219,7 @@ ul#model-feats {
       box-shadow: 0 0 10px #000000; }
   .testimonials a {
     color: #d4dee6;
-    font-size: 12px;
+    font-size: 18px;
     height: 32px;
     text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a; 
     line-height: 32px;
@@ -1232,11 +1232,11 @@ ul#model-feats {
         font-family: Orbitron, Arial, sans-serif; } }
     @media (min-width: 768px) {
       .testimonials a {
-        font-size: 16px;
+        font-size: 18px;
         font-family: Orbitron, Arial, sans-serif; } }
     @media (max-width: 320px) {
       .testimonials a {
-        font-size: 12px;
+        font-size: 18px;
         font-family: Orbitron, Arial, sans-serif; } }
   .testimonials blockquote {
     border: none;
@@ -1289,6 +1289,28 @@ ul#model-feats {
           -ms-transform: translate(50%, 50%);
           -o-transform: translate(50%, 50%);
           transform: translate(50%, 50%); } }
+
+          .testimonials .devName {
+    color: #d4dee6;
+    font-size: 14px;
+    height: 32px;
+    text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a; 
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: Orbitron, Arial, sans-serif;
+    text-align: center; }
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+      .testimonials .devName {
+        font-size: 14px;
+        font-family: Orbitron, Arial, sans-serif; } }
+    @media (min-width: 768px) {
+      .testimonials .devName {
+        font-size: 14px;
+        font-family: Orbitron, Arial, sans-serif; } }
+    @media (max-width: 320px) {
+      .testimonials .devName {
+        font-size: 14px;
+        font-family: Orbitron, Arial, sans-serif; } }
 
 
 
